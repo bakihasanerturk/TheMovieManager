@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		787E076529C2F258006C476A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E076429C2F258006C476A /* AppDelegate.swift */; };
 		787E076729C2F258006C476A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E076629C2F258006C476A /* SceneDelegate.swift */; };
-		787E076929C2F258006C476A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E076829C2F258006C476A /* ViewController.swift */; };
+		787E076929C2F258006C476A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E076829C2F258006C476A /* LoginViewController.swift */; };
 		787E076C29C2F258006C476A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787E076A29C2F258006C476A /* Main.storyboard */; };
 		787E076E29C2F259006C476A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787E076D29C2F259006C476A /* Assets.xcassets */; };
 		787E077129C2F259006C476A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787E076F29C2F259006C476A /* LaunchScreen.storyboard */; };
+		787E077929C2F911006C476A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E077829C2F911006C476A /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		787E076129C2F258006C476A /* TheMovieManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787E076429C2F258006C476A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		787E076629C2F258006C476A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		787E076829C2F258006C476A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		787E076829C2F258006C476A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		787E076B29C2F258006C476A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		787E076D29C2F259006C476A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		787E077029C2F259006C476A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		787E077229C2F259006C476A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787E077829C2F911006C476A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				787E076429C2F258006C476A /* AppDelegate.swift */,
 				787E076629C2F258006C476A /* SceneDelegate.swift */,
-				787E076829C2F258006C476A /* ViewController.swift */,
+				787E076829C2F258006C476A /* LoginViewController.swift */,
+				787E077829C2F911006C476A /* HomeViewController.swift */,
 				787E076A29C2F258006C476A /* Main.storyboard */,
 				787E076D29C2F259006C476A /* Assets.xcassets */,
 				787E076F29C2F259006C476A /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787E076929C2F258006C476A /* ViewController.swift in Sources */,
+				787E076929C2F258006C476A /* LoginViewController.swift in Sources */,
 				787E076529C2F258006C476A /* AppDelegate.swift in Sources */,
 				787E076729C2F258006C476A /* SceneDelegate.swift in Sources */,
+				787E077929C2F911006C476A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
