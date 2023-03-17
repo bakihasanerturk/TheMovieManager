@@ -15,11 +15,8 @@ class HomeViewController: UIViewController {
         
     }
     
-    @IBAction func backToHomeBarButton(_ sender: UIBarButtonItem) {
-        
+    @IBAction func backToHomeButton(_ sender: UIBarButtonItem) {
         navigationController?.popToRootViewController(animated: true)
     }
-    
-    
 
 }

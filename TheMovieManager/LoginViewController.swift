@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
     @IBAction func loginButton(_ sender: UIButton) {
         if userEmail == emailText.text && userPassword == passwordText.text{
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "HomeVC") as! HomeViewController
+            let vc = storyboard.instantiateViewController(withIdentifier: "TabBarVC")
             show(vc, sender: nil)
             
         }else{
